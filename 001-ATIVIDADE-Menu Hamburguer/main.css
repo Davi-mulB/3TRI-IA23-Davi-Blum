@@ -110,19 +110,37 @@ body {
     scroll-behavior: smooth;
 }
 
-header,
-main,
-footer {
-    border: 2px solid red;
-    padding: 1rem;
-}
-
 body {
     min-height: 100vh
 }
 
 header {
     height: 200px;
+    display: flex;
+    padding: 1.5vw;
+    font-size: 1.25rem;
+    justify-content: space-between;
+    align-items: center;
+    background-image: linear-gradient(white , gray);
+    box-shadow: 0 0 25px 0.5vw black;
+}
+
+.logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 2vw;
+    padding: 1vw;
+}
+
+.logos :nth-child(1){
+    padding-top: 0.75vw;
+    padding-bottom: 0.75vw;
+}
+
+.logos > *{
+    height: 5vw;
+    width: 5vw;
 }
 
 main {
