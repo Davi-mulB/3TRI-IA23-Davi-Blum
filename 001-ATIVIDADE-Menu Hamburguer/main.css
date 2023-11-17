@@ -137,6 +137,25 @@ header {
     width: 5vw;
 }
 
-.img_fundo1 {
+.inicio {
+    height: 60vw;
+    display: grid;
+    grid-template-columns: 3vw 6fr 9fr;
+    grid-template-rows: 35vw 1fr 2vw;
+}
+
+.img_fundo1{
+    height: 100%;
     width: 100%;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+
+.frase_inicial {
+    grid-column: 2;
+    grid-row: 2;
+    color: white;
+    font-size: 2vw;
 }
