@@ -4,92 +4,228 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Menu Hamburger</title>
-    <link rel="stylesheet"</link>
+    <title>A Santíssima Trindade</title>
+    <link rel="stylesheet">
     <link rel="stylesheet" href="main.css" type="text/css">
+    <link rel="icon" href="Logo_Trindade_Site.png" type="image/x-icon">
     <script defer async src="main.js"></script>
 </head>
 
 <body>
+
     <button class="menu-hamburger">
         <span></span>
     </button>
 
     <nav class="main-menu">
-        <a href="#anchor_1">
-            Seção 1
-        </a>
-        <a href="#anchor_2">
-            Seção 2
-        </a>
-        <a href="#anchor_3">
-            Seção 3
-        </a>
-        <a href="#anchor_4">
-            Seção 4
-        </a>
-        <a href="#anchor_5">
-            Seção 5
-        </a>
-        <a href="#anchor_6">
-            Seção 6
-        </a>
-        <a href="#anchor_7">
-            Seção 7
-        </a>
-        <a href="#anchor_8">
-            Seção 8
-        </a>
-        <a href="#anchor_9">
-            Seção 9
-        </a>
-        <a href="#anchor_10">
-            Seção 10
-        </a>
-        <a href="#anchor_11">
-            Seção 11
-        </a>
-        <a href="#anchor_12">
-            Seção 12
-        </a>
-        <a href="#anchor_13">
-            Seção 13
-        </a>
-        <a href="#anchor_14">
-            Seção 14
-        </a>
-        <a href="#anchor_15">
-            Seção 15
-        </a>
-        <a href="#anchor_16">
-            Seção 16
-        </a>
-        <a href="#anchor_17">
-            Seção 17
-        </a>
-        <a href="#anchor_18">
-            Seção 18
-        </a>
-        <a href="#anchor_19">
-            Seção 19
-        </a>
-        <a href="#anchor_20">
-            Seção 20
-        </a>
+        <div class="division2"></div>
+        <div class="anchors_grid">
+            <a href="#anchor_1">
+                Porsche 918 Spyder
+            </a>
+            <a href="#anchor_2">
+                Ferrari LaFerrari
+            </a>
+            <a href="#anchor_3">
+                Mclaren P1
+            </a>
+        </div>
     </nav>
+
     <header>
         <h1>A Santíssima Trindade dos hipercarros</h1>
         <div class="logos">
-            <img src="Logo_Maclaren.png">
+            <img src="Logo_Mclaren.png">
             <img src="Logo_Porsche.png">
             <img src="Logo_Ferrari.png">
         </div>
     </header>
+    
     <div class="inicio">
         <img src="HT_image.png" class="img_fundo1">
+
+        <div class="dialog_local">
+            <dialog class="dialog">
+                <p>A denominação "Santíssima Trindade" não é exclusiva para esses 3 carros, ela é usada frequentemente quando surgem 3 carros muito bons e com características semelhantes numa mesma época.</p>
+                <div class="action">
+                    <button>fechar</button>
+                </div>
+            </dialog>
+        </div>
+
         <section class="frase_inicial">
-            Motor central, potência híbrida, aerodinâmica ativa, rapidez e beleza. Essas foram algumas das características que fizeram o 918 da Porsche, a LaFerrari da Ferrari e a P1 da McLaren serem considerados tão identicamente perfeitos que foi preciso junta-los em uma única denominação, A Santíssima Trindade.
+            <span class="highlight">Motor central</span>, <span class="highlight">potência híbrida</span>, <span class="highlight">aerodinâmica ativa</span>, <span class="highlight">rapidez</span> e <span class="highlight">beleza</span>. Essas foram algumas das características que fizeram o 918 Spyder da Porsche, a LaFerrari da Ferrari e a P1 da McLaren serem considerados tão identicamente perfeitos que foi preciso junta-los em uma única denominação, <button class="bt_dialog">A Santíssima Trindade</button>.
         </section>
+
     </div>
+
+    <div class="division"></div>
+
+    <div class="918_part">
+        <img src="918_Wide.jpg" id="wide_images">
+
+        <div class="division"></div>
+
+        <div class="cars_title">
+            <h1>918 Spyder</h1>
+            <span class="anchor" id="anchor_1"></span>
+
+            <button class="bt-open-modal">
+              <img src="918_cruise.jpeg">
+            </button>
+
+            <dialog class="modals modal">
+                <div class="links">
+                    <p>Antecessor</p>
+                    <a href="https://en.wikipedia.org/wiki/Porsche_Carrera_GT">-Porsche Carrera GT</a>
+                    <p>Sucessor:</p>
+                    <a href="https://en.wikipedia.org/wiki/Porsche_Mission_X">-Porsche Misssion x</a>
+                </div>
+                <div class="action">
+                    <button class="bt-close-modal">fechar</button>
+                </div>
+            </dialog>
+
+        </div>
+
+        <div class="division2"></div>
+
+        <div class="cars_about">
+            <div>
+                <div>
+                    <h2>Motor</h2>
+                    <p>4.6L Porsche M18.00 V8</p>
+                    <p>+</p>
+                    <p>2 motores elétricos.</p>
+                    <p>(AWD) - (887 hp)</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h2>Velocidade</h2>
+                    <p>0–97km/h em 2.2 segundos, 0–161km/h em 4.9 segundos, 0–290km/h em 17.5 segundos, quarto de milha em 9.8 segundos e uma velocidade máxima de 352km/h.</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h2>Preço</h2>
+                    <p>Por volta de 7.791.876,79R$</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="division"></div>
+
+    <div class="laferrari_part">
+        <img src="LaFerrari_Wide.jpg" id="wide_images">
+
+        <div class="division"></div>
+
+        <div class="cars_title">
+            <h1>LaFerrari</h1>
+            <span class="anchor" id="anchor_2"></span>
+
+            <button class="bt-open-modal1">
+                <img src="LaFerrari_cruise.jpeg">
+            </button>
+
+            <dialog class="modals modal1">
+                <div class="links">
+                    <p>Antecessor</p>
+                    <a href="https://en.wikipedia.org/wiki/Ferrari_Enzo">-Ferrari Enzo</a>
+                    <p>Sucessor:</p>
+                    <p class="in">Inexistente</p>
+                </div>
+                <div class="action">
+                    <button class="bt-close-modal1">fechar</button>
+                </div>
+            </dialog>
+
+        </div>
+
+        <div class="division2"></div>
+
+        <div class="cars_about">
+            <div>
+                <div>
+                    <h2>Motor</h2>
+                    <p>6.3L F140 FE V12</p>
+                    <p>+</p>
+                    <p>1 motor elétrico</p>
+                    <p>(RWD) - (963hp)</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h2>Velocidade</h2>
+                    <p> 0–100 km/h em 2.6 segundos, 0–200 km/h em menos de 6.9 segundos, quarto de milha em 9.7 e uma velocidade máxima de 352 km/h.</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h2>Preço</h2>
+                    <p>Por volta de 15.707.918,83R$</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="division"></div>
+
+    <div class="p1_part">
+        <img src="P1_Wide.png" id="wide_images">
+
+        <div class="division"></div>
+
+        <div class="cars_title">
+            <h1>P1</h1>
+            <span class="anchor" id="anchor_3"></span>
+
+            <button class="bt-open-modal2">
+                <img src="P1_cruise.jpeg">
+            </button>
+
+            <dialog class="modals modal2">
+                <div class="links">
+                    <p>Antecessor</p>
+                    <a href="https://en.wikipedia.org/wiki/McLaren_F1">-McLaren F1</a>
+                    <p>Sucessor:</p>
+                    <p class="in">Inexistente</p>
+                </div>
+                <div class="action">
+                    <button class="bt-close-modal2">fechar</button>
+                </div>
+            </dialog>
+
+        </div>
+
+        <div class="division2"></div>
+        
+        <div class="cars_about">
+            <div>
+                <div>
+                    <h2>Motor</h2>
+                    <p>3.8L twin-turbocharged M838TQ V8</p>
+                    <p>+</p>
+                    <p>1 McLaren E-Motor</p>
+                    <p>(RWD) - (727hp)</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h2>Velocidade</h2>
+                    <p>0–100km/h em 2.8 segundos, 0–200 km/h em 6.8 segundos, 0–300 km/h em 16.5 segundos, quarto de milha 9.8 segundos e uma velocidade máxima de 350km/h</p>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h2>Preço</h2>
+                    <p>Por volta de 7.843.866,12R$</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="division"></div>
 </body>
 </html>
